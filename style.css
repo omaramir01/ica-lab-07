@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f5f7;
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px;
+  color: #222;
+}
+
+/* Mobile Screen Container */
+.phone-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  min-height: 680px;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Orange Header Banner */
+.app-header {
+  background-color: #ff5a00;
+  color: #ffffff;
+  padding: 18px 16px;
+  border-radius: 14px;
+  text-align: left;
+}
+
+.app-header h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.app-header p {
+  font-size: 0.85rem;
+  opacity: 0.92;
+}
+
+/* Restaurant & Dish Cards */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.badge {
+  align-self: flex-start;
+  background-color: #fff0e6;
+  color: #ff5a00;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.card-desc {
+  font-size: 0.85rem;
+  color: #666666;
+  line-height: 1.4;
+}
+
+.price {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ff5a00;
+  margin-top: 2px;
+}
+
+/* Navigation Buttons */
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #ff5a00;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 11px 14px;
+  border-radius: 10px;
+  margin-top: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #e04e00;
+}
+
+.btn-back {
+  background-color: #f0f2f5;
+  color: #333333;
+  margin-top: auto;
+}
+
+.btn-back:hover {
+  background-color: #e2e5ea;
+}
